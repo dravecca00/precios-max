@@ -1,9 +1,9 @@
 <?php
 error_reporting(E_ALL ^ E_NOTICE);
 $dbHost = 'localhost';
-$dbUsername = 'diego';
+$dbUsername = '';
 $dbPassword = '';
-$dbName = 'adelco';
+$dbName = '';
 
    //connect with the database
 $db = new mysqli($dbHost,$dbUsername,$dbPassword,$dbName);
