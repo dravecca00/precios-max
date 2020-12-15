@@ -2,9 +2,9 @@
 
 $ean = $_GET['ean'];
 $dbHost = 'localhost';
-$dbUsername = 'damian';
-$dbPassword = 'Damian200';
-$dbName = 'adelco';
+$dbUsername = '';
+$dbPassword = '';
+$dbName = '';
 
    //connect with the database
 $db = new mysqli($dbHost,$dbUsername,$dbPassword,$dbName);
